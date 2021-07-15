@@ -9,7 +9,7 @@
 
 ---
 
-> wukong! is currently being rewritten, therefore some of the info may be incorrect
+> wukong! is currently being rewritten, therefore some of the info may be incorrect, some files may not be available as well.
 
 <h2 align="center">wukong!</h2>
 
