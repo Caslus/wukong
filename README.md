@@ -29,7 +29,7 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 
 a docs with all commands is currently being written, please be patient.
 
-also, i didn't set up music commands yet! but they are 100% guaranteed to be a feature in the future
+also, i didn't set up music commands yet! but they are 100% guaranteed to be a feature in the future.
 
 <h2 align="center">contributing</h2>
 
