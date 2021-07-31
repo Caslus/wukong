@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Caslus/wukong.git"
   },
-  "author": "Lucas Philippe",
+  "author": "Daniel de Oliveira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Caslus/wukong/issues"
