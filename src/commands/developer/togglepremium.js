@@ -1,6 +1,6 @@
 module.exports = {
     name: "togglepremium",
-    description: "togglePremiumSimulator",
+    description: "togglePremiumDescription",
     usage: ["<prefix>togglepremium <server id>", "<prefix>togglepremium 1234567812345678"],
     enabled: true,
     aliases: [],

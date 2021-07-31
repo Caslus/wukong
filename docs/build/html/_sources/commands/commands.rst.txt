@@ -1,0 +1,15 @@
+wukong!'s commands
+===================================
+
+here is a list of all of wukong!'s commands
+
+.. toctree::
+    :maxdepth: 2
+    :caption: category
+
+    developer
+    admin
+    admin/lang
+    fun
+    general
+    

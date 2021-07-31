@@ -1,0 +1,18 @@
+lang
+======
+
+description
+-----------
+
+set the language for the server you use it in, a list of the available languages is shown when called with no arguments.
+
+usage
+-----
+
+use as following::
+
+    w!lang <language code>
+
+usage example::
+
+    w!lang en
