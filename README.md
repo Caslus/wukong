@@ -13,7 +13,7 @@
 
 <h2 align="center">wukong!</h2>
 
-wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. basically all i think a bot needs is either already present or to be added in the future. uppercase makes wukong uncomfortable
+wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. basically all i think a bot needs is either already present or to be added in the future. uppercase makes wukong uncomfortable.
 
 <h3>table of contents</h3>
 
