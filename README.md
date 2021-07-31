@@ -9,11 +9,11 @@
 
 ---
 
-> wukong! is currently being rewritten, therefore some of the info may be incorrect
+> wukong! is currently being rewritten, therefore some of the info may be incorrect or not even present at all.
 
 <h2 align="center">wukong!</h2>
 
-wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. basically all i think a bot needs is either already present or tba in the future.
+wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. basically all i think a bot needs is either already present or to be added in the future. uppercase makes wukong uncomfortable
 
 <h3>table of contents</h3>
 
@@ -27,7 +27,9 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 
 <h2 align="center">commands</h2>
 
-a list of commands may or may not be included here in the future, i'm also considering putting them up in the github wiki, for now, you can use the `help` command
+a docs with all commands is currently being written, please be patient.
+
+also, i didn't set up music commands yet! but they are 100% guaranteed to be a feature in the future
 
 <h2 align="center">contributing</h2>
 
@@ -47,7 +49,9 @@ you can report a bug by writing a [bug report](https://github.com/Caslus/wukong/
 
 ### translation
 
-translation support is still being worked on, as soon as it becomes available i will write more info about it here.
+you can contribute to the bot by translating it to another language or improving already existing sentences, check out the `locale.json` file, the structure is really simple, so it is really easy for wukong! to get any sentence in any language. if you are going to create the translation for a new language, copy the english object "en" and paste it at the bottom of the document, there you can edit "en" to another language code, and perform the translation for all the sentences.
+
+> make sure to leave all punctuation as is, if there are ` around a word, keep them in the translation, if there is a : at the end of the sentence, keep it in the translation.
 
 <h2 align="center">self-hosting</h2>
 
@@ -63,7 +67,7 @@ after you're done, you have to install wukong!'s dependencies, which may take a 
 
     npm install
 
-you can now edit edit the `.envexample` file, setting your tokens and a few other variables, remember to edit the file name to `.env` once you're done.<br>
+you can now edit edit the `config.template.json` file, setting your tokens and a few other configuration values, remember to edit the file name to `config.json` once you're done.<br>
 finally, run wukong! using
 
     npm start

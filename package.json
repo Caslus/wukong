@@ -1,0 +1,32 @@
+{
+  "name": "wukong",
+  "version": "1.0.0",
+  "description": "wukong! now completely rewritten",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caslus/wukong.git"
+  },
+  "author": "Lucas Philippe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caslus/wukong/issues"
+  },
+  "homepage": "https://github.com/Caslus/wukong#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^12.5.3",
+    "mathjs": "^9.4.4",
+    "mongoose": "^5.13.2",
+    "utils": "^0.3.1"
+  }
+}
