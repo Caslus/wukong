@@ -6,8 +6,6 @@ const math = require('mathjs');
 
 module.exports.getLocale = async function (lang, string, ...vars) {
     let locale = languages[lang][string];
-    let count = 0;
-    //locale = locale.replace(/%VAR%/g, () => vars[count] !== null ? vars[count] : "%VAR%");
     vars.forEach((newVar) => {
         locale = locale.replace('%VAR%', newVar);
     })
