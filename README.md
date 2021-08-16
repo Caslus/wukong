@@ -17,6 +17,8 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 
 <h3>table of contents</h3>
 
+- [table of contents](#table-of-contents)
+- [to-do](#to-do)
 - [commands](#commands)
 - [contributing](#contributing)
     - [ideas](#ideas)
@@ -24,6 +26,14 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
     - [reporting bugs](#reporting-bugs)
     - [translation](#translation)
 - [self-hosting](#self-hosting) 
+
+<h3>to-do</h3>
+
+- [X] user blacklisting
+- [ ] music commands (i'm delaying this for now because of bandwidth)
+- [ ] welcome message config
+- [ ] new guild message
+- [ ] user profiles
 
 <h2 align="center">commands</h2>
 
