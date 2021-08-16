@@ -71,14 +71,15 @@
         "serverInfoChannelsVoice": "voice",
         "serverInfoRoles": "roles",
         "serverInfoBans": "bans",
-        "blacklistedMsg": "you are blacklisted."
+        "blacklistedMsg": "you are blacklisted.",
+        "userblacklistDescription": "toggle blacklist for a user id"
     },
     "pt": {
         "language": "português",
         "forgotPrefix": "meu prefixo é `%VAR%` caso você tenha esquecido",
         "noArgs": "você precisa especificar o(s) argumento(s) para utilizar esse comando",
         "notNsfwChannel": "esse comando só pode ser utilizado em canais nsfw",
-        "missingPermissions": "você não tem as seguins permissões:",
+        "missingPermissions": "você não tem as seguintes permissões:",
         "commandOnCooldown": "esse comando ainda está em cooldown por outros %VAR% segundos, você pode diminuir esse tempo pela metade comprando premium!",
         "commandOnCooldownPremium": "esse comando ainda está em cooldown por outros %VAR% segundos",
         "updatedPrefix": "o prefixo foi atualizado para `%VAR%`",
@@ -144,6 +145,7 @@
         "serverInfoChannelsVoice": "voz",
         "serverInfoRoles": "cargos",
         "serverInfoBans": "bans",
-        "blacklistedMsg": "você está na lista negra."
+        "blacklistedMsg": "você está na lista negra.",
+        "userblacklistDescription": "ativa/desativa a blacklist para um id de usuário"
     }
 }

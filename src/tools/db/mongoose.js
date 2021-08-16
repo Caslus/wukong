@@ -5,6 +5,7 @@ guildSchema = require("./schema/guild.js");
 memberSchema = require("./schema/member.js");
 
 module.exports.fetchUser = async function (key) {
+    key = key.replace(/\D/g, '');
     let userDB = await userSchema.findOne({ id: key });
     if (userDB) {
         return userDB;
