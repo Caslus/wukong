@@ -4,7 +4,6 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const util = require('util');
 const config = require('../config.json');
-const asciiTable = require('ascii-table');
 const readdir = util.promisify(fs.readdir);
 const client = new Discord.Client({
     disableEveryone: true

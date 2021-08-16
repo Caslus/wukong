@@ -70,7 +70,8 @@
         "serverInfoChannelsText": "text",
         "serverInfoChannelsVoice": "voice",
         "serverInfoRoles": "roles",
-        "serverInfoBans": "bans"
+        "serverInfoBans": "bans",
+        "blacklistedMsg": "you are blacklisted."
     },
     "pt": {
         "language": "português",
@@ -142,6 +143,7 @@
         "serverInfoChannelsText": "texto",
         "serverInfoChannelsVoice": "voz",
         "serverInfoRoles": "cargos",
-        "serverInfoBans": "bans"
+        "serverInfoBans": "bans",
+        "blacklistedMsg": "você está na lista negra."
     }
 }

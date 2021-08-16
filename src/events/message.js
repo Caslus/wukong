@@ -87,6 +87,13 @@ module.exports = async (client, message) => {
         }
 
         let userData = await client.db.fetchUser(message.author.id);
+
+        if (userData.blacklisted) {
+            return client.tools.sendEmbed(message, {
+                description: `${await client.tools.getLocale(message.guild.lang, "blacklistedMsg")}`
+            });
+        }
+
         if (!guildData) guildData = await client.db.fetchGuild(message.guild.id);
         let data = {};
         data.user = userData;
