@@ -74,7 +74,7 @@
         "blacklistedMsg": "you are blacklisted.",
         "userblacklistDescription": "toggle blacklist for a user id"
     },
-    "pt": {
+    "pt-br": {
         "language": "português",
         "forgotPrefix": "meu prefixo é `%VAR%` caso você tenha esquecido",
         "noArgs": "você precisa especificar o(s) argumento(s) para utilizar esse comando",
@@ -90,8 +90,8 @@
         "mathResponse": "resultado:",
         "premiumStatus": "servidor possui premium:",
         "premiumBenefitsTitle": "benefícios premium",
-        "premiumBenefits": "0,5x cooldown de comandos\nmais a ser adicionado",
-        "getPremiumDesc": "fale com %VAR% para adquirir premium",
+        "premiumBenefits": "0,5x cooldown de comandos / mais a ser adicionado.",
+        "getPremiumDesc": "fale com %VAR% para adquirir o premium",
         "helpTitle": "confuso?",
         "helpDescription": "você pode achar uma lista de comandos na [documentação oficial](%VAR%)",
         "helpUsageTitle": "mais informações",
@@ -108,15 +108,15 @@
         "none": "nenhum(a)",
         "langDescription": "defina o idioma do servidor",
         "prefixDescription": "defina o prefixo do servidor",
-        "evalDescription": "roda javascript, muito perigoso!!11!!1",
-        "msgChannelDescription": "manda mensagem a um canal",
+        "evalDescription": "rodar javascript é muito perigoso!",
+        "msgChannelDescription": "manda mensagem para um canal",
         "msgDmDescription": "manda mensagem pra alguém",
         "togglePremiumDescription": "habilita premium em um servidor",
-        "emojifyDescription": "transforma texto em emojipasta",
+        "emojifyDescription": "transforma um texto em emojipasta",
         "avatarDescription": "veja o avatar de alguém",
         "calcDescription": "calcule uma expressão",
         "helpCmdDescription": "receba ajuda",
-        "inviteCmdDescription": "meu link de convite",
+        "inviteCmdDescription": "meu link para me convidar",
         "premiumDescription": "verifique o status de premium",
         "rolesDescription": "lista de todos os cargos",
         "serverDescription": "convite para o servidor de suporte",
@@ -125,7 +125,7 @@
         "randomcaseDescription": "faz o seu texto ficar TiPO AsSiM, mHmMM mUiTO aLEaTóRiO",
         "reverseDescription": "faz o seu texto ficar ao oirártnoc",
         "infoDescription": "estatísticas do bot",
-        "informationDescription": "wukong! é desenvolvido por lucas!#8336\nele gosta muito de bananas",
+        "informationDescription": "wukong! é desenvolvido por lucas!#8336 ele gosta muito de bananas!",
         "channels": "canais",
         "users": "usuários",
         "guilds": "servidores",
@@ -145,7 +145,7 @@
         "serverInfoChannelsVoice": "voz",
         "serverInfoRoles": "cargos",
         "serverInfoBans": "bans",
-        "blacklistedMsg": "você está na lista negra.",
-        "userblacklistDescription": "ativa/desativa a blacklist para um id de usuário"
+        "blacklistedMsg": "você está na minha lista negra."
+        "userblacklistDescription": "Adiciona/Remove um usuário a minha lista negra."
     }
 }
