@@ -6,6 +6,8 @@ memberSchema = require("./schema/member.js");
 
 module.exports.fetchUser = async function (key) {
     key = key.replace(/\D/g, '');
+    if (key == '') return
+    if (key.length != 18 && key.length != 17) return
     let userDB = await userSchema.findOne({ id: key });
     if (userDB) {
         return userDB;

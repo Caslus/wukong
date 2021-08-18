@@ -28,7 +28,7 @@ module.exports = {
                 }))
             }
             return client.tools.sendEmbed(message, {
-                description: `bot isn't in a guild with that id`
+                description: `invalid id`
             });
         }
         catch (err) {
