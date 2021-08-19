@@ -38,7 +38,7 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 
 <h2 align="center">commands</h2>
 
-you can find a list of wukong!'s commands at our [docs](https://wukongbot.readthedocs.io/en/latest/)
+you can find a list of wukong!'s commands at our [docs](https://docs.wukong.rocks/)
 
 also, i didn't set up music commands yet! but they are 100% guaranteed to be a feature in the future.
 
