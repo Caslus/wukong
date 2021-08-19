@@ -19,20 +19,18 @@ body{
 }
 
 .links{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 35em;
-    width: 100%;
+    margin-top: 40em;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 h1{
@@ -86,6 +84,28 @@ span{
 #scrolling-image img{
     position: absolute;
     width: 30em;
+}
+
+.suzanne{
+    visibility: hidden;
+    -webkit-filter: drop-shadow(0 12px 5px #9d2126);
+    filter: drop-shadow(0 0 5px #9d2126);
+    animation: suzanneShine 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+@keyframes suzanneShine{
+    0%{
+        -webkit-filter: drop-shadow(0 12px 5px #9d2126);
+        filter: drop-shadow(0 0 5px #9d2126);
+    }
+    50%{
+        -webkit-filter: drop-shadow(0 12px 20px #9d2126);
+        filter: drop-shadow(0 0 10px #9d2126);
+    }
+    100%{
+        -webkit-filter: drop-shadow(0 12px 5px #9d2126);
+        filter: drop-shadow(0 0 5px #9d2126);
+    }
 }
 
 @keyframes shine{

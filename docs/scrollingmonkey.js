@@ -3,10 +3,7 @@ window.onload = function () {
     var imagesDiv = document.getElementById("scrolling-image");
     var images = imagesDiv.children;
 
-    [...images].forEach(function (image) {
-        image.style.visibility = "hidden";
-    })
-    images[0].style.visibility = "visible";
+    images[imageIndex].style.visibility = "visible";
 
     window.addEventListener('wheel', function (e) {
         var next;
