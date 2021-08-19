@@ -1,17 +1,17 @@
 {
+    "color": "#FFFFFF",
+    "defaultPrefix": "!",
+    "docsUrl": "url to your bot documentation",
+    "genius": "https://genius.com/api-clients",
+    "inviteUrl": "bot invite url",
+    "mongoPath": "mongodb://localhost:27017/yourbot or whatever is the path to your database",
     "name": "bot name",
+    "ownerID": "123456789123456789",
     "presences": [
         "example1",
         "example2",
         "example3"
     ],
-    "token": "https://discord.com/developers/applications",
-    "defaultPrefix": "!",
-    "mongoPath": "mongodb://localhost:27017/yourbot or whatever is the path to your database",
-    "genius": "https://genius.com/api-clients",
-    "color": "#FFFFFF",
-    "ownerID": "123456789123456789",
-    "docsUrl": "url to your bot documentation",
-    "inviteUrl": "bot invite url",
-    "serverUrl": "your server url"
+    "serverUrl": "your server url",
+    "token": "https://discord.com/developers/applications"
 }
