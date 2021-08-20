@@ -27,8 +27,12 @@ module.exports = {
         }
 
         try {
-            let member = !args[0] ? null : await client.tools.resolveMember(args[0], message.guild);
-            let user = (!args[0] || !member) ? message.author : member.user;
+            let fetch = !args[0] ? null : await client.tools.resolveUser(args[0], client);
+            let user = fetch ? fetch : message.author;
+
+            if (user !== message.author) {
+                data.user = await client.db.fetchUser(user.id);
+            }
 
             const canvas = Canvas.createCanvas(600, 250);
             const context = canvas.getContext('2d');

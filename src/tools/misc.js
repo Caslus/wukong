@@ -34,6 +34,23 @@ module.exports.randomNumber = async function (min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 };
 
+module.exports.resolveUser = async function (search, client) {
+    // this is probably not the best approach, but it's the best i can think of right now, i'm tired 😭😭
+    let user = null;
+    if (!search || typeof search !== "string") return;
+    search = search.replace(/\D/g, '');
+    try {
+        user = await client.users.fetch(search.toString());
+        if (user) {
+            return user;
+        }
+    }
+    catch {
+        return null;
+    }
+    return null;
+}
+
 module.exports.resolveMember = async function (search, guild) {
     let member = null;
     if (!search || typeof search !== "string") return;

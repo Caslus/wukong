@@ -13,8 +13,8 @@ module.exports = {
 
     async execute(client, message, args, data) {
         try {
-            let member = !args[0] ? null : await client.tools.resolveMember(args[0], message.guild);
-            let user = (!args[0] || !member) ? message.author : member.user;
+            let fetch = !args[0] ? null : await client.tools.resolveUser(args[0], client);
+            let user = fetch ? fetch : message.author;
             return client.tools.sendEmbed(message, {
                 description: `${await client.tools.getLocale(message.guild.lang, "avatarResponse", user.username)}`,
                 image: { url: `${user.displayAvatarURL({ dynamic: true, size: 2048, format: 'png' })}` }
