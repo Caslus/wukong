@@ -6,7 +6,8 @@ const util = require('util');
 const config = require('../config.json');
 const readdir = util.promisify(fs.readdir);
 const client = new Discord.Client({
-    disableEveryone: true
+    disableEveryone: true,
+    intents: ['GUILD_PRESENCES', 'GUILD_MEMBERS']
 });
 client.events = new Discord.Collection();
 client.commands = new Discord.Collection();
