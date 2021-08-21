@@ -20,7 +20,7 @@ module.exports = {
             const context = canvas.getContext('2d');
 
             do {
-                context.font = `${fontSize -= 10}px sans serif`;
+                context.font = `${fontSize -= 10}px Sans`;
             } while (context.measureText(text).width > canvas.width - 250);
 
             return context.font;

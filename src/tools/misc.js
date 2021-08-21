@@ -16,7 +16,7 @@ module.exports.sendEmbed = async function (message, embed) {
     let newEmbed = new Discord.MessageEmbed()
         .setColor(config.color);
     embed = { ...newEmbed, ...embed };
-    return message.channel.send({ embed: embed });
+    return message.channel.send({ embeds: [embed] });
 }
 
 module.exports.calc = async function (expression) {
