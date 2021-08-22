@@ -20,11 +20,12 @@ module.exports = {
 
             if (!args[0]) {
                 return client.tools.sendEmbed(message, {
-                    description: `🥴 - ${await client.tools.getLocale(message.guild.lang, "coinflipResponse", result)}`
+                    description: `😎 - ${await client.tools.getLocale(message.guild.lang, "coinflipResponse", result)}`
                 });
             }
 
             let bet = parseInt(args[0]);
+
             if (bet <= data.user.bank) {
                 let user = await client.db.fetchUser(message.author.id);
                 if (coinflip) {
@@ -42,6 +43,9 @@ module.exports = {
                     });
                 }
             }
+            return client.tools.sendEmbed(message, {
+                description: `🤪 - ${await client.tools.getLocale(message.guild.lang, "invalidArgument")}`
+            });
         }
         catch (err) {
             console.log(err);
