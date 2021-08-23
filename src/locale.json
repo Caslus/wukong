@@ -1,5 +1,6 @@
 {
     "en": {
+        "accountCreatedAt": "account created",
         "aliases": "aliases",
         "apiLatency": "api latency",
         "avatarDescription": "see someone's avatar",
@@ -23,6 +24,8 @@
         "dailyDescription": "claim your daily reward",
         "dailyFailMsg": "you already claimed your daily reward! next reward available in %VAR%",
         "dailyMsg": "you got %VAR% bananas as your daily reward, come back in 24h for more!",
+        "discordId": "discord id",
+        "discordTag": "discord tag",
         "editbalanceDescription": "edit someone's balance",
         "emojifyDescription": "turn text into emojipasta",
         "enabled": "enabled",
@@ -42,6 +45,7 @@
         "invalidArgument": "invalid argument",
         "inviteCmdDescription": "my invite url",
         "inviteDescription": "click [here](%VAR%) to add me to your server",
+        "joinedGuildAt": "joined guild",
         "langDescription": "set the language for this server",
         "langsAvailable": "here are the available language options:",
         "language": "english",
@@ -87,10 +91,12 @@
         "updatedPrefix": "prefix has been updated to `%VAR%`",
         "uptime": "uptime",
         "usage": "usage",
+        "userInfoDescription": "get information about an user",
         "userblacklistDescription": "toggle blacklist for a user id",
         "users": "users"
     },
     "pt": {
+        "accountCreatedAt": "conta criada a",
         "aliases": "apelidos",
         "apiLatency": "latência de api",
         "avatarDescription": "veja o avatar de alguém",
@@ -114,6 +120,8 @@
         "dailyDescription": "resgate sua recompensa diária",
         "dailyFailMsg": "você já resgatou sua recompensa hoje! próxima recompensa em %VAR%",
         "dailyMsg": "você resgatou %VAR% bananas como sua recompensa diária, volte em 24h para mais!",
+        "discordId": "id do discord",
+        "discordTag": "tag do discord",
         "editbalanceDescription": "edite o saldo de algúem",
         "emojifyDescription": "transforma texto em emojipasta",
         "enabled": "ativado",
@@ -132,6 +140,7 @@
         "invalidArgument": "argumento inválido",
         "inviteCmdDescription": "meu link de convite",
         "inviteDescription": "clique [aqui](%VAR%) para me adicionar ao seu servidor",
+        "joinedGuildAt": "entrou no servidor a",
         "langDescription": "defina o idioma do servidor",
         "langsAvailable": "aqui estão as opções de idiomas disponíveis:",
         "language": "português",
@@ -177,6 +186,7 @@
         "updatedPrefix": "o prefixo foi atualizado para `%VAR%`",
         "uptime": "tempo online",
         "usage": "uso",
+        "userInfoDescription": "consiga informação sobre al'guem",
         "userblacklistDescription": "ativa/desativa a blacklist para um id de usuário",
         "users": "usuários"
     }
