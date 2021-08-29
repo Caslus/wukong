@@ -1,4 +1,5 @@
-const config = require("./../../config.json"), cmdCooldown = {};
+const config = require("./../../config.json");
+let cmdCooldown = {};
 
 module.exports = async (client, message) => {
     try {

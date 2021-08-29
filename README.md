@@ -32,7 +32,7 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 - [X] user blacklisting
 - [ ] music commands (i'm delaying this for now because of bandwidth)
 - [ ] welcome message config
-- [ ] new guild message
+- [X] new guild message
 - [X] user profiles
 - [ ] profile customization
 
