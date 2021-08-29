@@ -87,4 +87,4 @@ if you make any changes to the docs you will have to rebuild them, navigate to t
 
     make html
 
-after that you should be good to go 😼
+after that you should be good to go! 😼
