@@ -83,8 +83,4 @@ finally, run wukong! using
 
     npm start
 
-if you make any changes to the docs you will have to rebuild them, navigate to the docs root and use
-
-    make html
-
 after that you should be good to go! 😼
