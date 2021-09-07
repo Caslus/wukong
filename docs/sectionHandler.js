@@ -47,3 +47,12 @@ Array.prototype.forEach.call(dots, dot => {
 document.querySelector(".invite-button").onclick = function(){
     location.href = "https://discord.com/oauth2/authorize?client_id=819316891062763540&scope=bot&permissions=4050113";
 };
+document.querySelector(".docs-button").onclick = function(){
+    location.href = "https://docs.wukong.rocks/";
+};
+document.querySelector(".github-button").onclick = function(){
+    location.href = "https://github.com/Caslus/wukong/";
+};
+document.querySelector(".support-button").onclick = function(){
+    location.href = "https://discord.gg/dHmF3nGntv";
+};
