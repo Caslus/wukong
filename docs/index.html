@@ -5,60 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wukong!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <script src="./scrollingmonkey.js"></script>
+    <script src="./sectionHandler.js" defer></script>
+    <title>wukong!</title>
+    <link rel="icon" type="image/png" href="./media/monkey.png"/>
 
 </head>
 
 <body>
-    <div id="scrolling-image">
-        <img src="./media/suzanne0001.png" class="suzanne">
-        <img src="./media/suzanne0002.png" class="suzanne">
-        <img src="./media/suzanne0003.png" class="suzanne">
-        <img src="./media/suzanne0004.png" class="suzanne">
-        <img src="./media/suzanne0005.png" class="suzanne">
-        <img src="./media/suzanne0006.png" class="suzanne">
-        <img src="./media/suzanne0007.png" class="suzanne">
-        <img src="./media/suzanne0008.png" class="suzanne">
-        <img src="./media/suzanne0009.png" class="suzanne">
-        <img src="./media/suzanne0010.png" class="suzanne">
-        <img src="./media/suzanne0011.png" class="suzanne">
-        <img src="./media/suzanne0012.png" class="suzanne">
-        <img src="./media/suzanne0013.png" class="suzanne">
-        <img src="./media/suzanne0014.png" class="suzanne">
-        <img src="./media/suzanne0015.png" class="suzanne">
-    </div>
-
-    <section class="title">
-        <h1>wukong!</h1>
-        <h3>monkey boy looking fresh</h3>
-    </section>
-    <section class="links">
-        <h2>check these out</h2>
-        <div class="buttons">
-            <a href="https://github.com/Caslus/wukong/">
-                <div class="github">
-                    <span>view on github</span>
-                </div>
-            </a>
-            <a href="https://docs.wukong.rocks">
-                <div class="docs">
-                    <span>official documentation</span>
-                </div>
-            </a>
-            <a href="https://discord.com/oauth2/authorize?client_id=819316891062763540&scope=bot&permissions=4050113">
-                <div class="docs">
-                    <span>invite bot</span>
-                </div>
-            </a>
-            <a href="https://discord.gg/dHmF3nGntv">
-                <div class="docs">
-                    <span>support server</span>
-                </div>
-            </a>
+    <div class="wrapper">
+        <div class="div background"></div>
+        <div class="strips">
+            <div class="left-strip"></div>
+            <div class="right-strip"></div>
+         </div>
+        <div class="nav">
+            <!--<div class="menu"><i class="fa fa-bars"></i></div> im lazy, gonna add this later-->
+            <div class="arrow-down"><i class="fas fa-angle-double-down"></i></div>
         </div>
-    </section>
+
+        <section class="home">
+            <img src="./media/monkey.png" alt="monkey!" class="monkey-image">
+            <div class="monkey-text">
+                <h1 class="monkey-title">wukong!</h1>
+                <p class="monkey-subtitle">ook ook</p>
+                <button class="invite-button">invite bot</button>
+            </div>
+        </section>
+
+        <section class="docs">
+            <h1 class="docs-title">documentation</h1>
+            <p class="docs-description">you can find all sorts of information about wukong by checking out those:</p>
+            <button class="docs-button">official documentation</button>
+            <button class="github-button">view on github</button>
+            <p class="docs-support-text">still got any questions?</p>
+            <button class="support-button">support server</button>
+        </section>
+
+        <section class="author">
+            <div class="author-image-div">
+                <img src="./media/wirt.jpg" alt="lucas!" class="author-image">
+                <p class="author-image-text">ok maybe not</p>
+                <p class="author-description">(picture is 100% me)</p>
+            </div>
+            <div class="author-text">
+                <h1 class="author-title">author</h1>
+                <p class="author-paragraph">wukong! is developed by <a href="https://github.com/Caslus">lucas!#8336</a> (that's me!), an 18 year old student from brazil, he doesn't really like capital letters, so that's why you won't be able to find any of them anywhere amidst his projects or code! you may also notice he really likes using exclamation marks for no special reason! he doesn't really like front-end development, sorry for the messy page!</p>
+            </div>
+        </section>
+
+        <div class="dots">
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+        </div>
+    </div>
 </body>
 
 </html>
