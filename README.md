@@ -9,11 +9,11 @@
 
 ---
 
-> wukong! is currently being rewritten, therefore some of the info may be incorrect or not even present at all...
+> wukong! is now discontinued and won't receive any more updates because of discord's new slash commands being enforced. you can still clone this repository and self-host it by making changes to the command handler, but i won't offer you any support at all.
 
 <h2 align="center">wukong!</h2>
 
-wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. basically all i think a bot needs is either already present or to be added in the future. uppercase makes wukong uncomfortable.
+wukong! is a free and open source discord bot built from scratch mainly for learning purposes but also focusing on user experience. uppercase makes wukong uncomfortable.
 
 <h3>table of contents</h3>
 
@@ -30,7 +30,7 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 <h3>to-do</h3>
 
 - [X] user blacklisting
-- [ ] music commands (i'm delaying this for now because of bandwidth)
+- [ ] music commands
 - [ ] welcome message config
 - [X] new guild message
 - [X] user profiles
@@ -39,8 +39,6 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 <h2 align="center">commands</h2>
 
 you can find a list of wukong!'s commands at our [docs](https://docs.wukong.rocks/)
-
-also, i didn't set up music commands yet! but they are 100% guaranteed to be a feature in the future.
 
 <h2 align="center">contributing</h2>
 
