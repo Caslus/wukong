@@ -38,7 +38,7 @@ wukong! is a free and open source discord bot built from scratch mainly for lear
 
 <h2 align="center">commands</h2>
 
-you can find a list of wukong!'s commands at our [docs](https://docs.wukong.rocks/)
+you can find a list of wukong!'s commands at our [docs](https://lucas-philippe-nunes.gitbook.io/wukong/)
 
 <h2 align="center">contributing</h2>
 
